@@ -1,5 +1,3 @@
-package chapter01.A_generic_types;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,0 +1,22 @@
+package chapter02.E_get_and_put;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+public class Program_5 {
+    public static double sum(Collection<? extends Number> nums) {
+        double s = 0.0;
+        for (Number num : nums) s += num.doubleValue();
+        return s;
+    }
+    public static void main(String[] args)  {
+        List<Integer> ints = new ArrayList<>();
+        ints.add(1);
+        ints.add(2);
+        List<? extends Number> nums = ints;
+        double dbl = sum(nums);     // ok
+//        nums.add(3.14);             // compile-time error
+
+    }
+}
