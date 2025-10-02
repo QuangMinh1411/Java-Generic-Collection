@@ -1,4 +1,4 @@
-﻿package chapter04.B_static_members;
+package chapter04.B_static_members;
 
 class Cell2 <T>{
 //    private final T value;

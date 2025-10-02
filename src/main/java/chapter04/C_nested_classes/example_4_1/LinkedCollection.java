@@ -1,4 +1,4 @@
-﻿package chapter04.C_nested_classes.example_4_1;
+package chapter04.C_nested_classes.example_4_1;
 
 import java.util.AbstractCollection;
 import java.util.Collection;

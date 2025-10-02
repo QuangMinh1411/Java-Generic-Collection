@@ -1,4 +1,4 @@
-﻿package chapter04.D_how_erasur_works;
+package chapter04.D_how_erasur_works;
 
 //public class Overloaded implements Comparable<Integer>,Comparable<Long>{
 //    // compile-time error, cannot implement two interfaces with same erasure
